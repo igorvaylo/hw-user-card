@@ -1,0 +1,245 @@
+*{
+  box-sizing: border-box;
+}
+:root {
+  --rad: 10px;
+}
+.fa {
+  color: grey;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon-header {
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.info-header {
+  margin-top: 20px;
+ 
+}
+.container{
+  outline: 1px solid rgb(236, 230, 230);
+  border-radius: var(--rad);
+  width: 450px;
+  height: 600px;
+  margin: 20px auto;
+}
+
+.img-container{
+  width: 240px;
+  height: 240px;
+  margin: auto;
+  
+}
+.photo{
+  border: 11px solid rgb(97, 94, 94);
+  border-color: white;
+  border-radius: 50%;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header{
+  margin-top: -20px;
+}
+.info-header > p{
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: light;
+  font-size: 12px;
+}
+.main-header > p{
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: light;
+  font-size: 34px;
+}
+.main-info > p{
+  margin-top: -22px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  font-style: normal ;
+  font-size: 14px;
+  text-align: center;
+}
+p {
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.follow {
+  margin-top: 25px;
+  width: 150px;
+  border: 0;
+  height: 55px;
+  padding: 0 20px;
+  font-size: 20px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgb(10, 159, 228);
+  box-shadow: 
+  inset -1px -2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.follow:hover {
+  background-color: rgb(15, 70, 102);
+}
+
+.follow:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.footer{
+  margin-top: 21px;
+  width: 450px;
+  height: 92px;
+  background-color: rgb(46, 64, 88);
+  border-bottom-left-radius: var(--rad);
+  border-bottom-right-radius: var(--rad);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  }
+  
+.fa-picture-o{
+  padding: 2px;
+  size: 30px;
+  color: rgb(190, 122, 122);
+  background-color: rgb(46, 64, 88);
+}
+.nbr-posts{
+  padding: 2px;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.posts{
+  padding: 2px;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(190, 122, 122);
+}
+.fa-heart-o{
+  padding: 2px;
+  size: 30px;
+  color: rgb(190, 122, 122);
+  background-color: rgb(46, 64, 88);
+}
+.nbr-fav{
+  padding: 2px;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.fav{
+  padding: 2px;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(190, 122, 122);
+}
+.fa-paper-plane-o{
+  padding: 2px;
+  size: 30px;
+  color: rgb(190, 122, 122);
+  background-color: rgb(46, 64, 88);
+}
+.nbr-msg{
+  padding: 2px;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+.msg{
+  padding: 2px;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(190, 122, 122);
+}
+.posts-container{
+  margin-top: 25px;
+  width: 150px;
+  height: 92px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+ 
+}
+
+.posts{
+  width: 89px;
+}
+.nbr-posts{
+  margin-top: -48px;
+  margin-right: 60px;
+}
+
+.fav-container{
+  margin-top: 25px;
+  width: 150px;
+  height: 92px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.fav{
+  width: 89px;
+}
+.nbr-fav{
+  margin-top: -48px;
+}
+
+.msg-container{
+  margin-top: 25px;
+  width: 150px;
+  height: 92px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.msg{
+  width: 89px;
+}
+.nbr-msg {
+  margin-top: -47px;
+  margin-right: -7px;
+}
+

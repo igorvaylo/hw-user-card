@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+:root {
+  --rad: 50px;
+}
+/* div{
+  border: 1px solid red;
+} */
+.container{
+  outline: 5px solid midnightblue ;
+  border-radius: var(--rad);
+  width: 450px;
+  height: 600px; 
+  margin: 20px auto;
+}
+.header {
+  width: 100%;
+  height: 30%;
+  border-top-right-radius: var(--rad);
+  border-top-left-radius: var(--rad);
+  background-image: url(../img/photo_2024-01-13_13-43-08.jpg);
+  
+}
+.img-container{
+  
+  width: 240px;
+  height: 240px;
+  margin: auto;
+  margin-top: -120px;
+}
+.photo{
+  border: 12px solid white;
+  border-radius: 50%;
+  width:  inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: top;
+}
+.info-container {
+  
+}
+.info-header{
+  text-align: center;
+}
+.info-header > p{
+  font-size: 20px;
+  /* font-weight: 100;  */
+  color: rgb(0, 0, 0, 0.5);
+  margin-top: -10px;
+  letter-spacing: 5px;
+}
+.info-main > p{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  color: white
+
+}
+.social-net{
+   display: inline-block;
+   margin: 0 5px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   outline: 1px solid;
+   padding-top: 7px;
+}
+.face {
+  background-color: rgb(1, 101, 225);
+  background: linear-gradient(#17A9FD,#0165E1);
+}
+.twit{
+  background-color: rgb(29, 155, 240);
+  
+}
+.in{
+  background-color: rgb(10, 102, 194);
+  
+}
